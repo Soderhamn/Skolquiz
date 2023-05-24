@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Admin_webbplats.Data;
 using Admin_webbplats.Models;
 
-namespace Admin_webbplats.Controllers
+namespace Admin_webbplats
 {
     public class CategoriesController : Controller
     {

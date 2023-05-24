@@ -15,8 +15,7 @@ namespace Admin_webbplats.Models
 		public string? Alternative2 { get; set; }
 		public string? Alternative3 { get; set; }
 		public string? Alternative4 { get; set; }
-
-		public List<Category>? Category { get; set; } //Koppla ihop fråga med kategori
+		public Category? Category { get; set; } //Koppla ihop fråga med kategori
 
 	}
 }
