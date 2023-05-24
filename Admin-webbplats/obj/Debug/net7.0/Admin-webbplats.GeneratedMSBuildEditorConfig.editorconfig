@@ -9,45 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Admin_webbplats
 build_property.RootNamespace = Admin_webbplats
-build_property.ProjectDir = C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\
+build_property.ProjectDir = c:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats
+build_property.MSBuildProjectDirectory = c:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Home/Index.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/Error.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/_ViewImports.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/_ViewStart.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_Layout.cshtml]
+[c:/Users/marcu/Documents/MIUN/VT23/Webbutveckling med NET/Moment 5 - Projekt/Skolquiz/Admin-webbplats/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gy17lmmu4v
