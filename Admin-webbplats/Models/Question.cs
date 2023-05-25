@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Admin_webbplats.Models;
 
 namespace Admin_webbplats.Models
 {
@@ -15,6 +16,11 @@ namespace Admin_webbplats.Models
 		public string? Alternative2 { get; set; }
 		public string? Alternative3 { get; set; }
 		public string? Alternative4 { get; set; }
+
+		[Required]
+		public int Correct { get; set; } //Korrekt svarsalternativ lagras som heltal
+
+		public int CategoryId {get; set; }
 		public Category? Category { get; set; } //Koppla ihop fråga med kategori
 
 	}

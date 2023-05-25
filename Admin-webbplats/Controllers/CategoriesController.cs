@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Admin_webbplats.Data;
 using Admin_webbplats.Models;
+using Microsoft.AspNetCore.Authorization;
 
-namespace Admin_webbplats
+namespace Admin_webbplats.Controllers
 {
+    [Authorize]
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace Admin_webbplats
         }
 
         // GET: Categories
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
               return _context.Category != null ? 
@@ -28,6 +31,7 @@ namespace Admin_webbplats
         }
 
         // GET: Categories/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Category == null)

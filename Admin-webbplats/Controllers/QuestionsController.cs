@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Admin_webbplats.Data;
 using Admin_webbplats.Models;
+using Microsoft.AspNetCore.Authorization;
 
-namespace Admin_webbplats
+namespace Admin_webbplats.Controllers
 {
+    [Authorize]
     public class QuestionsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,14 +22,15 @@ namespace Admin_webbplats
         }
 
         // GET: Questions
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-              return _context.Question != null ? 
-                          View(await _context.Question.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Question'  is null.");
+            var applicationDbContext = _context.Question.Include(q => q.Category);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Questions/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Question == null)
@@ -36,6 +39,7 @@ namespace Admin_webbplats
             }
 
             var question = await _context.Question
+                .Include(q => q.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (question == null)
             {
@@ -48,6 +52,7 @@ namespace Admin_webbplats
         // GET: Questions/Create
         public IActionResult Create()
         {
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
             return View();
         }
 
@@ -56,7 +61,7 @@ namespace Admin_webbplats
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,QuestionText,Alternative1,Alternative2,Alternative3,Alternative4")] Question question)
+        public async Task<IActionResult> Create([Bind("Id,QuestionText,Alternative1,Alternative2,Alternative3,Alternative4,Correct,CategoryId")] Question question)
         {
             if (ModelState.IsValid)
             {
@@ -64,6 +69,7 @@ namespace Admin_webbplats
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", question.CategoryId);
             return View(question);
         }
 
@@ -80,6 +86,7 @@ namespace Admin_webbplats
             {
                 return NotFound();
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", question.CategoryId);
             return View(question);
         }
 
@@ -88,7 +95,7 @@ namespace Admin_webbplats
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,QuestionText,Alternative1,Alternative2,Alternative3,Alternative4")] Question question)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,QuestionText,Alternative1,Alternative2,Alternative3,Alternative4,Correct,CategoryId")] Question question)
         {
             if (id != question.Id)
             {
@@ -115,6 +122,7 @@ namespace Admin_webbplats
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", question.CategoryId);
             return View(question);
         }
 
@@ -127,6 +135,7 @@ namespace Admin_webbplats
             }
 
             var question = await _context.Question
+                .Include(q => q.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (question == null)
             {
