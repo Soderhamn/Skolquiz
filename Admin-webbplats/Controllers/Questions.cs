@@ -12,11 +12,11 @@ namespace Admin_webbplats.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class QuestionsControllerApi : ControllerBase
+    public class Questions : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public QuestionsControllerApi(ApplicationDbContext context)
+        public Questions(ApplicationDbContext context)
         {
             _context = context;
         }
