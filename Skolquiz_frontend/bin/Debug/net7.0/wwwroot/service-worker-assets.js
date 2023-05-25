@@ -1,76 +1,36 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-uhotZszkBLq\/V8xt8UtpU6lGHEIqbqLsFUVGyelV2TU=",
-      "url": "css\/app.css"
+      "hash": "sha256-0MaVY2eLRgKHxDHA1patw8zwomPlT1BnjMZdmg20kr8=",
+      "url": "css\/skolquiz.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
-      "url": "css\/bootstrap\/bootstrap.min.css"
-    },
-    {
-      "hash": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
-      "url": "css\/bootstrap\/bootstrap.min.css.map"
-    },
-    {
-      "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
-      "url": "css\/open-iconic\/FONT-LICENSE"
-    },
-    {
-      "hash": "sha256-BJ\/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
-      "url": "css\/open-iconic\/font\/css\/open-iconic-bootstrap.min.css"
-    },
-    {
-      "hash": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh\/chSkSvQpc=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.eot"
-    },
-    {
-      "hash": "sha256-sDUtuZAEzWZyv\/U1xl\/9D3ehyU69JE+FvAcu5HQ+\/a0=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.otf"
-    },
-    {
-      "hash": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.svg"
-    },
-    {
-      "hash": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.ttf"
-    },
-    {
-      "hash": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ\/v\/QzXlejRDwUNdZIofI=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.woff"
-    },
-    {
-      "hash": "sha256-aF5g\/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU\/ss=",
-      "url": "css\/open-iconic\/ICON-LICENSE"
-    },
-    {
-      "hash": "sha256-waukoLqsiIAw\/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=",
-      "url": "css\/open-iconic\/README.md"
-    },
-    {
-      "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "hash": "sha256-J1HnMZpcVrRJgzPalGjKbjzGzOdVFkewBq5TyEzHMUU=",
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
+      "hash": "sha256-aEjDdZcX8gNHR1ry9cSLKGiP8PcIFLslwtdWNym9tEc=",
       "url": "icon-192.png"
     },
     {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
+      "hash": "sha256-tXnMFbklx0BCf+UcElhFGx12zYQoNrK5E86kyAiPImg=",
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-pbylTKkg8pRsmjM0V9Tc4nNAXpBp8UUAEvrj+KPvvFY=",
+      "hash": "sha256-TW5N4OQenYTagNrOMSJxy0GObxTr7foVP42USQVTcgY=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-eINaPZgtX0ryMPA97MYpiKzTRrkZCuLudYyEZd14YRM=",
+      "hash": "sha256-Nd+VvCNYVTMnLb2LeoKk3SUsIwDAj8kibBgBewJnM80=",
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ\/A6aYYSQjZfVn2cU=",
-      "url": "sample-data\/weather.json"
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "sample-data\/category.json"
+    },
+    {
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "sample-data\/question.json"
     },
     {
       "hash": "sha256-5yhU0eCaOLczAhlQK8UlginWjLIgdoqEu1KlF+faRy4=",
@@ -869,11 +829,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-rsa3ZqcbYdpz5QZtlX8MPmLSfF90zVL5YIaTGU\/Tq1g=",
+      "hash": "sha256-QgLeZ84drczuM\/NwfIjlTDq3\/NyZ\/1iLqwwCZKj2\/bQ=",
       "url": "_framework\/Skolquiz_frontend.dll"
     },
     {
-      "hash": "sha256-o4Ljn+xtSCn8g54yeKf1vo5cXancGyTzRIZ2gpcDuQY=",
+      "hash": "sha256-KKxfR1ngPq5SUhJ3oZPaDa1lrCf9Id6ZdZRct7FCbLo=",
       "url": "_framework\/Skolquiz_frontend.pdb"
     },
     {
@@ -881,9 +841,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-MB2\/BIkrSLGsmaUXWSYELg27wHhhekcHuABG19qDXYI=",
+      "hash": "sha256-NQKDDNlOFgJWma8ri6oK\/mJoRSyzty3M4AQsQMdAkiU=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "eTFEw\/AD"
+  "version": "v90CxP8a"
 };

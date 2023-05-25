@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-T52Qf1cS\/UysEoWOoE2ptEJEXfGpanQX5KNLyDiLv1E=",
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
-      "Skolquiz_frontend.dll": "sha256-rsa3ZqcbYdpz5QZtlX8MPmLSfF90zVL5YIaTGU\/Tq1g="
+      "Skolquiz_frontend.dll": "sha256-QgLeZ84drczuM\/NwfIjlTDq3\/NyZ\/1iLqwwCZKj2\/bQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Skolquiz_frontend.pdb": "sha256-o4Ljn+xtSCn8g54yeKf1vo5cXancGyTzRIZ2gpcDuQY="
+      "Skolquiz_frontend.pdb": "sha256-KKxfR1ngPq5SUhJ3oZPaDa1lrCf9Id6ZdZRct7FCbLo="
     },
     "runtime": {
       "dotnet.7.0.2.exiuovrl6g.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",
