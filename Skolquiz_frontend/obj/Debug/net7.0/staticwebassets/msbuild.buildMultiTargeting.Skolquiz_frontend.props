@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Skolquiz_frontend.props" />
+</Project>
