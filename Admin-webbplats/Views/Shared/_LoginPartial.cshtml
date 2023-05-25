@@ -7,7 +7,7 @@
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hej @User.Identity?.Name!</a>
     </li>
         <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Registrera konto</a>
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Skapa konto</a>
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
