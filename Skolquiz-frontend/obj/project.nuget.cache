@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "015J3a8RQOq+G7ZzFWamwL/g3aUYDw/QEejyIjtlTulcZ0Nauv+VBL15BncXkjJpQCWrhb41ISZYaWuviqFXuw==",
+  "dgSpecHash": "8cdcj8IoyhcQy9X+ImEflot3cMCCTextJ6eWAqi9FQ+LI6Z+AXZhsCobHwqu0OZzf0xv1wvJF1YgqrsBKgpDIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz-frontend.csproj",
+  "projectFilePath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz_frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Nugets\\microsoft.aspnetcore.authorization\\7.0.2\\microsoft.aspnetcore.authorization.7.0.2.nupkg.sha512",
     "C:\\Nugets\\microsoft.aspnetcore.components\\7.0.2\\microsoft.aspnetcore.components.7.0.2.nupkg.sha512",

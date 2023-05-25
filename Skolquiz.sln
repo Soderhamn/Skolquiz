@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin-webbplats", "Admin-webbplats\Admin-webbplats.csproj", "{AFAA703A-9BE9-4D19-919E-10D732D992AD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skolquiz-frontend", "Skolquiz-frontend\Skolquiz-frontend.csproj", "{1DB907F6-2118-47A7-9C95-877BD9E39D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin-webbplats", "Admin-webbplats\Admin-webbplats.csproj", "{AFAA703A-9BE9-4D19-919E-10D732D992AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{AFAA703A-9BE9-4D19-919E-10D732D992AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFAA703A-9BE9-4D19-919E-10D732D992AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFAA703A-9BE9-4D19-919E-10D732D992AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DB907F6-2118-47A7-9C95-877BD9E39D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DB907F6-2118-47A7-9C95-877BD9E39D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DB907F6-2118-47A7-9C95-877BD9E39D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DB907F6-2118-47A7-9C95-877BD9E39D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

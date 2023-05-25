@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Admin_webbplats.Models;
 
 namespace Admin_webbplats.Models
 {

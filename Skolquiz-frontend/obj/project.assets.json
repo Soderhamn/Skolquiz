@@ -1923,9 +1923,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz-frontend.csproj",
-      "projectName": "Skolquiz-frontend",
-      "projectPath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz-frontend.csproj",
+      "projectUniqueName": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz_frontend.csproj",
+      "projectName": "Skolquiz_frontend",
+      "projectPath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\Skolquiz_frontend.csproj",
       "packagesPath": "C:\\Nugets",
       "outputPath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz-frontend\\obj\\",
       "projectStyle": "PackageReference",
