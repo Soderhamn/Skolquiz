@@ -1,0 +1,203 @@
+@page "/Play"
+@inject HttpClient Http
+
+<PageTitle>Spela</PageTitle>
+
+@code {
+    int selectedCategory = 0; //Kategori som användaren valt
+    private Category[]? categories; //Array med kategorier
+    private Question[]? questions; //Array med frågor
+    List<Question> selectedQuestions = new List<Question>{}; //Lista som ska fyllas med frågor som tillhör den vald kategori
+
+    public int points = 0; //Antal poäng som användaren har
+    private string correctAnswer = ""; //Rätt svar på frågan
+
+
+    //Ladda in kategorier vid "sidladdning"
+    protected override async Task OnInitializedAsync() 
+    {
+
+        Console.WriteLine("Laddar kategorier...");
+        var uri = "https://localhost:7015/api/Categories/";
+        //var uri = "sample-data/category.json";
+        categories = await Http.GetFromJsonAsync<Category[]>(uri);
+
+        //Läs in samtliga frågor
+        var uri2 = "https://localhost:7015/api/Questions/";
+        questions = await Http.GetFromJsonAsync<Question[]>(uri2);
+    }
+
+    //När användaren väljer en kategori
+    private void categorySelected( ChangeEventArgs e) {
+        selectedCategory = int.Parse(e.Value.ToString()); //Sätt vald kategori
+
+                //Om frågor finns 
+        @if(questions != null) {
+            selectedQuestions.Clear(); //Rensa listan med frågor
+            //Välj ut frågorna som tillhör den valda kategorin
+            foreach(var q in questions) {
+                if(q.CategoryId == selectedCategory) {
+                    selectedQuestions.Add(q); //Lägg till frågan i listan
+                }
+            }
+        } else {
+            Console.WriteLine("Inga frågor hittades");
+        }
+    }
+
+    //Kontrollera om användaren valt rätt svar
+    private void checkAnswer(string buttonValue, Question q) {
+        Console.WriteLine("Button value: " + buttonValue);
+
+        //Hämta rätt svar
+        string correctAnswer = getCorrectAnswer(q);
+
+        if(buttonValue == correctAnswer) {
+            points++; //Öka poängen med 1
+        }
+
+        //Sätt frågan som besvarad
+        q.IsAnswered = true;
+
+        removeQuestion(q); //Ta bort frågan från listan
+
+    }
+
+    private void removeQuestion(Question q) {
+            Console.WriteLine("Inne i removeQuestion " + selectedQuestions.Count);
+            selectedQuestions.Remove(q); //Ta bort frågan från listan
+            Console.WriteLine("Efter Remove: " + selectedQuestions.Count);
+        //}
+             
+    }
+
+    private string getCorrectAnswer(Question q) {
+                    //Rätt svarsalternativ
+            int correct = q.Correct;
+            
+            @if(correct == 1) {
+                correctAnswer = q.Alternative1;
+            } else if(correct == 2) {
+                correctAnswer = q.Alternative2;
+            } else if(correct == 3) {
+                correctAnswer = q.Alternative3;
+            } else if(correct == 4) {
+                correctAnswer = q.Alternative4;
+            }
+            else {
+                correctAnswer = ""; //Tom textsträng, borde inte hända
+            }
+            return correctAnswer;
+    }
+
+    public class Question
+	{
+		public int Id { get; set; }
+		public string? QuestionText { get; set; }
+		public string? Alternative1 { get; set; }
+		public string? Alternative2 { get; set; }
+		public string? Alternative3 { get; set; }
+		public string? Alternative4 { get; set; }
+		public int Correct { get; set; }
+		public int CategoryId {get; set; }
+        public bool IsAnswered { get; set; } = false; //Är frågan besvarad?
+    }
+
+    public class Category
+	{
+		public int Id { get; set; }
+		public string? Name { get; set; }
+		public string? Description { get; set; }
+		public List<Question>? Questions { get; set; }
+	}
+}
+
+<h1>Spela</h1>
+
+
+@if(selectedCategory == 0) {
+//Om användaren inte valt någon kategori eller valt "Välj en kategori" så visas en tabell med alla kategorier
+    @if(categories == null) {
+        <p>Laddar kategorier...</p>
+    }
+    else {
+            <table>
+    <thead>
+        <tr>
+            <th>Namn:</th>
+            <th>Beskrivning:</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in categories)
+        {
+            <tr>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+                
+            </tr>  
+        }
+        </tbody>
+        </table>
+
+         <div>
+        <label for="categorySelect">Välj en kategori: </label> 
+        <select value="@selectedCategory" @onchange="categorySelected"> <!--När användaren väljer en kategori så ändras selectCategory-->
+            <option value="0">Välj en kategori</option>
+        @foreach (var c in categories) //Loopa igenom alla kategorier och lägg till dem som options i <select>
+            {
+            <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+        </div>
+    }
+} else {
+     <p>Kategori: @categories?[selectedCategory-1].Name</p> //Visar vilken kategori som användaren valt
+
+
+    @if(selectedQuestions == null) { 
+        <p>Laddar frågor...</p>
+    }else if (selectedQuestions.Count == 0) { //Om det är slut på frågor
+    @if(points == 0) {
+        <h2>Försök igen!</h2>
+        <p>Du fick @points poäng.</p>
+    }
+    else {
+        <h2>Bra jobbat!</h2>
+        <p>Du fick @points poäng.</p>
+    }
+
+    } else { //Om det finns frågor att svara på
+        <p>Frågor kvar att svara på: @selectedQuestions.Count</p>
+        
+        foreach (var q in selectedQuestions)
+        {
+
+            <article class="question">
+            <h3>Fråga:</h3>
+            <p>@q.QuestionText</p>
+
+            <!-- Kolla så att alternativen finns, för att slippa fullt med felmeddelanden om possible null values -->
+            @if(q.Alternative1?.Length > 0 && q.Alternative2?.Length > 0 && q.Alternative3?.Length > 0 && q.Alternative4?.Length > 0) {
+            <!--Rätt svar int till string-->
+
+            
+            <!-- Skickar med värdet på alternativet, rätt svar till checkAnswer, skickar med frågan till removeQuestion -->
+            <button @onclick="() => { checkAnswer(q.Alternative1, q); }">@q.Alternative1</button>
+            <button @onclick="() => { checkAnswer(q.Alternative2, q); }">@q.Alternative2</button>
+            <button @onclick="() => { checkAnswer(q.Alternative3, q); }">@q.Alternative3</button>
+            <button @onclick="() => { checkAnswer(q.Alternative4, q); }">@q.Alternative4</button>
+            }
+            </article>
+
+        }
+
+    }
+
+    <p class="userPoints">Poäng: @points</p> 
+
+}
+
+<p style="margin-top: 16px;">
+    <NavLink href="/">Tillbaka till start</NavLink>
+</p> 

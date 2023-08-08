@@ -7,11 +7,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Admin_webbplats.Data;
 using Admin_webbplats.Models;
+using Microsoft.AspNetCore.Cors;
+using System.Web.Http.Filters;
 
 namespace Admin_webbplats
 {
+    public class AllowCrossSiteJsonAttribute : ActionFilterAttribute
+    {
+        public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+        {
+            if (actionExecutedContext.Response != null)
+                actionExecutedContext.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+
+            base.OnActionExecuted(actionExecutedContext);
+        }
+    }
+
     [Route("api/[controller]")]
     [ApiController]
+    [AllowCrossSiteJson]
     public class Categories : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -23,6 +37,7 @@ namespace Admin_webbplats
 
         // GET: api/CategoriesControllerApi
         [HttpGet]
+        [EnableCors]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
           if (_context.Category == null)

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>
+    </EncryptedPassword>
+    <History>True|2023-05-25T21:35:25.3688154Z;False|2023-05-25T23:33:36.0759406+02:00;True|2023-05-25T23:28:58.0618588+02:00;False|2023-05-25T23:25:08.5403857+02:00;True|2023-05-25T23:21:15.4730317+02:00;True|2023-05-25T23:16:29.3066191+02:00;False|2023-05-25T23:12:30.3968852+02:00;False|2023-05-25T23:11:01.8740048+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=QuizDb.db</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="SqLiteString">
+      <Value>Data Source=QuizDb.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

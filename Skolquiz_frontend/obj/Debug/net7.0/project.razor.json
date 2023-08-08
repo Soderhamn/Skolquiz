@@ -9,117 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1277748311,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.App",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Skolquiz_frontend",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -664153766,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.App",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Skolquiz_frontend.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "Skolquiz_frontend",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 20800800,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.Pages.FetchData",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1532037696,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.Pages.FetchData",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Skolquiz_frontend.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1976693471,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.Pages.Index",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -507453338,
-        "Kind": "Components.Component",
-        "Name": "Skolquiz_frontend.Pages.Index",
-        "AssemblyName": "Skolquiz_frontend",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Skolquiz_frontend.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Skolquiz_frontend.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1511000743,
         "Kind": "Components.Component",
         "Name": "Skolquiz_frontend.Shared.SurveyPrompt",
@@ -317,6 +206,154 @@
           "Common.TypeName": "Skolquiz_frontend.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Skolquiz_frontend.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1277748311,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.App",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Skolquiz_frontend",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -664153766,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.App",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Skolquiz_frontend.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "Skolquiz_frontend",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 20800800,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.FetchData",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1532037696,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.FetchData",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Skolquiz_frontend.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1976693471,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.Index",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -507453338,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.Index",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Skolquiz_frontend.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -995022606,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.Play",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Play"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.Play",
+          "Common.TypeNameIdentifier": "Play",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1389744970,
+        "Kind": "Components.Component",
+        "Name": "Skolquiz_frontend.Pages.Play",
+        "AssemblyName": "Skolquiz_frontend",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Skolquiz_frontend.Pages.Play"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Skolquiz_frontend.Pages.Play",
+          "Common.TypeNameIdentifier": "Play",
+          "Common.TypeNamespace": "Skolquiz_frontend.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -15887,6 +15924,11 @@
       "FilePath": "c:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\Pages\\Play.razor",
+      "TargetPath": "Pages\\Play.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\Pages\\Index.razor",

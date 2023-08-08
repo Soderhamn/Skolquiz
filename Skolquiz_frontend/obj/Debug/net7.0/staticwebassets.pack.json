@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
+      "Id": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\wwwroot\\css\\milligram.css",
+      "PackagePath": "staticwebassets\\css\\milligram.css"
+    },
+    {
       "Id": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\wwwroot\\css\\skolquiz.css",
       "PackagePath": "staticwebassets\\css\\skolquiz.css"
     },

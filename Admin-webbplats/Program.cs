@@ -15,6 +15,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 	.AddEntityFrameworkStores<ApplicationDbContext>();
+
+/* CORS: Tillåt anrop från alla källor (Admin(MVC)-projektet och frontend (WASM) körs på olika portar */
+builder.Services.AddCors(options =>
+{
+	options.AddDefaultPolicy(builder => builder.WithOrigins("*")
+	.AllowAnyMethod()
+	.AllowAnyHeader()
+	.AllowAnyOrigin());
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -35,6 +45,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseCors();
 
 app.UseAuthorization();
 

@@ -311,3 +311,8 @@ C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Sko
 C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\obj\Debug\net7.0\Admin-webbplats.pdb
 C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\obj\Debug\net7.0\Admin-webbplats.genruntimeconfig.cache
 C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\obj\Debug\net7.0\ref\Admin-webbplats.dll
+C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\Users\marcu\Documents\MIUN\VT23\Webbutveckling med NET\Moment 5 - Projekt\Skolquiz\Admin-webbplats\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

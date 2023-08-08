@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HrZvJbZxX8W/tFzPd8Dc1YwOk9k94mkS5D1ALWYJjhj+M+IEVyi9+JoWMqPrIPeLKFQOZKcKkZAfObE0CSu4xg==",
+  "dgSpecHash": "Pn3zu3JDOPvCoxP1+HlUyBwu1IS04EAwwnxzQsESjnEjJtIG+jxkvq3dVBZkooOvipcztnfh2S1S+qx2iy/Qwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\marcu\\Documents\\MIUN\\VT23\\Webbutveckling med NET\\Moment 5 - Projekt\\Skolquiz\\Skolquiz_frontend\\Skolquiz_frontend.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Nugets\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Nugets\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Nugets\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Nugets\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.2\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.2.nupkg.sha512"
+    "C:\\Nugets\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

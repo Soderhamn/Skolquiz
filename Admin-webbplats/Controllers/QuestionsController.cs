@@ -22,7 +22,7 @@ namespace Admin_webbplats.Controllers
         }
 
         // GET: Questions
-        [AllowAnonymous]
+        
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Question.Include(q => q.Category);
@@ -30,7 +30,7 @@ namespace Admin_webbplats.Controllers
         }
 
         // GET: Questions/Details/5
-        [AllowAnonymous]
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Question == null)

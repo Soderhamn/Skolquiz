@@ -22,7 +22,7 @@ namespace Admin_webbplats.Controllers
         }
 
         // GET: Categories
-        [AllowAnonymous]
+       
         public async Task<IActionResult> Index()
         {
               return _context.Category != null ? 
@@ -31,7 +31,7 @@ namespace Admin_webbplats.Controllers
         }
 
         // GET: Categories/Details/5
-        [AllowAnonymous]
+       
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Category == null)
