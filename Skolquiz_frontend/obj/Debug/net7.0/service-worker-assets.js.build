@@ -5,7 +5,7 @@
       "url": "css\/milligram.css"
     },
     {
-      "hash": "sha256-BiStoTNqztpjpyLhr1QGmtKkykaLr1AI3kXlTgReuz4=",
+      "hash": "sha256-K4bselfyohbgQ8pv9CRfNRl7ZD9JStwnaoowr3xGg08=",
       "url": "css\/skolquiz.css"
     },
     {
@@ -833,11 +833,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-21ORCtdU+k6gyHGlxFh\/DJ+esg2KRPvXRvxGfP41mU0=",
+      "hash": "sha256-6nQ9dBcl1d5IvGCG0QCGuSJ7ijjbsQdD5yR8S7asPus=",
       "url": "_framework\/Skolquiz_frontend.dll"
     },
     {
-      "hash": "sha256-8NtjDGD\/6qWwHnIw\/sHArWxdgdPNK6\/WlB9g5kRBknU=",
+      "hash": "sha256-9ONk+EZbx9JZHJfoQQYiSF+UiORxGGktWlYWLKKAkYI=",
       "url": "_framework\/Skolquiz_frontend.pdb"
     },
     {
@@ -845,9 +845,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-nbaOnK0rCPUWnLy\/AiADJ3UXrCTmPWiVzBK49fruf8g=",
+      "hash": "sha256-DOSyptJSJ\/jWH5iaLmZBNso0Zg4NBjVRdp\/9shWDqUc=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "SaT+XKlC"
+  "version": "ImIQbszA"
 };

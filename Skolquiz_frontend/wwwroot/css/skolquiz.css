@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #cccccc;
+    color: #000000 !important;
 }
 
 .container {
@@ -60,4 +61,8 @@ body {
 
 select {
     background-color: #ffffff;
+}
+
+#backLink a {
+    color: #5E267F
 }
